@@ -1,0 +1,63 @@
+@import '~bootstrap/scss/bootstrap';
+
+.wrap-form {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #00000052;
+    z-index: 999;
+
+    .my-wrap {
+        width: 28%;
+        background-color: #f8f9fa;
+        padding: 25px;
+
+        input {
+            text-align: center;
+        }
+
+        .wrap-buttons-form {
+            display: flex;
+            justify-content: center;
+
+            button {
+                margin: 0 2%;
+                width: 17%;
+            }
+        }
+    }
+}
+
+.wrap-button-create-user,
+.wrap-pagination {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+th, td {
+    text-align: center;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    
+    i {
+        cursor: pointer;
+        margin: 0 2%;
+    }
+
+    .fa-pencil-square-o {
+        color: #05668d;
+    }
+
+    .fa-times-circle {
+        color: #b80c09;
+    }
+}
